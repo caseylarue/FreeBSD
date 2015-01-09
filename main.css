@@ -16,6 +16,10 @@
 	margin: 25px;
 }
 
+a {
+	color: #7D0602;
+}
+
 /**HEADER******************/
 
 #header {
@@ -25,45 +29,73 @@
 	width: 970px;
 }
 
+
 #header img {
-	display: inline-block;
-	vertical-align: top;
 	margin-top: 5px;
+	display: inline-block;
+	vertical-align: top
 }
 
 
 #header h1 {
-	display: inline-block;
-	vertical-align: top;
 	margin-top: 50px;
 	font-size: 20px;
 	margin-left: 5px;
+	display: inline-block;
+	vertical-align: top;
 }
+
+
 
 #header #header_right {
 	display: inline-block;
 	vertical-align: top;
+	margin-left: 80px;
+	margin-top: 5px;
+	height: 60px;
+	width: 400px;
 }
 
 #header ul {
+	margin-left: 20px;
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 5px;
 }
 
-#header a {
+#header li {
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 5px;
 }
 
+/*#header a {
+display: inline-block;
+	vertical-align: top;
+	margin-top: 5px;
+	width:70px;
+	text-align: center;
+	color: white;
+}*/
 
+#header_right #search {
+	display: inline-block;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+
+#header_right #search button {
+	margin-left: 10px;
+	background-color:#990000;
+	padding: 0px 5px;
+	color: white;
+	border: 2px solid white;
+}
 
 
 /**NAVIGATiION*************/
 
 #navigation {
 	border: 2px solid black;
+	width: 965px;
 }
 
 #navigation ul {
@@ -81,34 +113,36 @@
 	padding: 0px;
 }
 
-/**MAIN and SIDE-BAR*************/
-
-#side-bar, #main {
-	display: inline-block;
-	vertical-align: top;
-	margin: 10px;
-}
-
 /**SIDE-BAR*************/
 
 #side-bar {
 	background-color: #C0C0C0;
 	padding: 10px;
-	padding-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px;
+	width: 200px;
 }
 
 #side-bar ul {
 	margin: 10px;
+/*	display: inline-block;*/
+	vertical-align: top;
+	padding-left: 20px;
+	list-style-type: circle;
 }
 
 #side-bar li {
-	padding: 5px;
+	padding: 3px;
 }
 
 /**MAIN*************/
 
 #main {
-	width: 500px
+	width: 500px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px;
 }
 
 #main ul, ol {
